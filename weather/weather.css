@@ -1,0 +1,46 @@
+body 
+{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(91, 7, 7);
+    color: white;
+    gap: 20px;
+    justify-content: center;  
+}
+
+.latitude 
+{
+    flex-direction: column;
+    
+}
+
+.longitude 
+{
+    flex-direction: column;
+}
+
+.temperature 
+{
+    flex-direction: column;
+}
+
+.times 
+{
+    flex-direction: column;
+}
+
+h2 
+{
+    text-transform: uppercase;
+}
+
+p {
+    
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+ul {
+    padding-top: 12px;
+    padding-left: 30px;
+}
